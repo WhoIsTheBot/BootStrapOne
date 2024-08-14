@@ -6,7 +6,7 @@ function loadProducts() {
 
   arr.forEach(() => {
     let div = `
-               <div class="card" style="width: 260px;">
+               <div class="card" style="width: 260px; margin: auto;">
             <img class="card-img-top" src="./assets/images/products/course_1.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Yoga Course One</h5>

@@ -1,5 +1,4 @@
 
-
 nav{
     max-width: 1080px;
     margin: auto;
@@ -62,19 +61,28 @@ nav{
 .title-search{
     max-width: 1060px;
     margin: auto;
+    padding: 5px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+@media (max-width:700px){
+    .title-search{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .products{
+    max-width: 1080px;
     margin: auto;
-    display: flex;
+    display: flex;  
     flex-wrap: wrap;
-    justify-content:space-between;
     gap:20px;
     padding-bottom: 15px;
 }
+
 
 footer{
     max-width: 1080px;
